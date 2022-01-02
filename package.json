@@ -19,7 +19,6 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "npm run clean && npm run compile && barrelsby --config barrelsbyrc.json && tsc -p tsconfig.build.json && prettier --write ./src/index.ts",
-    "build2": "barrelsby --config barrelsbyrc.json",
     "clean": "rimraf dist && rimraf coverage && rimraf ./src/index.ts",
     "commit": "git add . && git commit -m 'feat: :rocket:'",
     "compile": "tsc --noEmit",
@@ -46,48 +45,17 @@
     "visionworks, react, typescript"
   ],
   "dependencies": {
-    "@ant-design/icons": "^4.6.2",
-    "@ant-design/pro-card": "^1.14.0",
-    "@ant-design/pro-descriptions": "^1.9.25",
-    "@ant-design/pro-layout": "^6.19.4",
-    "@ant-design/pro-table": "^2.42.0",
-    "@craco/craco": "^6.1.2",
     "@testing-library/jest-dom": "^5.13.0",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "antd": "^4.16.1",
-    "atob": "^2.1.2",
     "axios": "^0.21.1",
     "class-transformer": "^0.4.0",
-    "class-validator": "^0.13.1",
-    "craco-less": "^1.17.1",
-    "envalid": "^7.0.0",
-    "highcharts": "^9.1.2",
-    "highcharts-react-official": "^3.0.0",
-    "i18next": "^19.9.1",
-    "i18next-browser-languagedetector": "^6.0.1",
-    "i18next-http-backend": "^1.1.1",
+    "class-validator": "^0.13.2",
     "moment": "^2.29.1",
-    "nanoid": "^3.1.29",
-    "pubsub-js": "^1.9.3",
     "react": "^17.0.2",
     "react-cookie": "^4.0.3",
-    "react-csv": "^2.0.3",
     "react-dom": "^17.0.2",
-    "react-draggable": "^4.4.4",
-    "react-helmet": "^6.1.0",
-    "react-i18next": "^11.8.9",
-    "react-markdown": "^7.1.0",
-    "react-redux": "^7.2.2",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
-    "react-to-print": "^2.13.0",
-    "redux": "^4.0.5",
-    "redux-devtools-extension": "^2.13.8",
-    "redux-thunk": "^2.3.0",
-    "reflect-metadata": "^0.1.13",
-    "uuid": "^8.3.2",
-    "web-vitals": "^1.0.1"
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.0.1",
@@ -97,19 +65,13 @@
     "@types/enzyme-adapter-react-16": "^1.0.6",
     "@types/jest": "^26.0.20",
     "@types/node": "^14.14.31",
-    "@types/pubsub-js": "^1.8.2",
     "@types/react": "^17.0.2",
-    "@types/react-csv": "^1.1.2",
     "@types/react-dom": "^17.0.1",
-    "@types/react-helmet": "^6.1.0",
-    "@types/react-redux": "^7.1.16",
     "@types/react-router-dom": "^5.1.7",
     "@types/react-test-renderer": "^17.0.1",
-    "@types/uuid": "^8.3.1",
     "@typescript-eslint/eslint-plugin": "^4.15.2",
     "@typescript-eslint/parser": "^4.15.2",
     "barrelsby": "^2.3.1",
-    "env-cmd": "^10.1.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
     "eslint-config-prettier": "^8.1.0",
@@ -139,17 +101,5 @@
     "ts-jest": "^26.5.2",
     "typescript": "4.0.3"
   },
-  "types": "dist/index.d.ts",
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "types": "dist/index.d.ts"
 }
