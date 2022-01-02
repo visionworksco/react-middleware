@@ -1,0 +1,18 @@
+export const RoutePath = {
+  home: '/',
+  position: '/position',
+  enobotStrategies: '/enobotStrategies',
+  enobotCustomerStrategies: '/enobotCustomerStrategies',
+  enobotRequests: '/enobotRequests',
+  enobotNonFirmRequests: '/enobotNonFirmRequests',
+  nomination: '/nomination',
+  exportData: '/exportData',
+  commands: '/commands',
+  profitLoss: '/profitLoss',
+  notifications: '/notifications',
+  fundamentalData: '/fundamentalData',
+  portfolioData: '/portfolioData',
+  account: '/account',
+  settings: '/settings',
+  help: '/help',
+};
