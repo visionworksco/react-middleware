@@ -55,6 +55,4 @@ export * from './utils/DateUtils';
 export * from './utils/FileUtils';
 export * from './utils/NumberUtils';
 export * from './utils/PageUtils';
-export * from './utils/test/Example.test';
 export * from './utils/TimeUtils';
-export * from './__test__/integration/Example.test';
