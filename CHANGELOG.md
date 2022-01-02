@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/visionworksco/react-middleware/compare/v1.6.0...v1.7.0) (2022-01-02)
+
+### Features
+
+- :rocket: ([e27c864](https://github.com/visionworksco/react-middleware/commit/e27c86492fd45e9b1a0a03bfa5c287120ecb74f6))
+
 ## [1.6.0](https://github.com/visionworksco/react-middleware/compare/v1.5.0...v1.6.0) (2022-01-02)
 
 ### Features
