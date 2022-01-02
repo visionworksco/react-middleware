@@ -3,6 +3,8 @@ test/
 types/
 .husky/
 **/__test__/
+__mocks__/
+public/
 .env*
 .eslintignore
 .eslintrc.js
@@ -10,7 +12,10 @@ types/
 .prettierrc.js
 .commitlintrc.js
 .lintstagedrc.js
+.stylelintrc.js
+.stylelintignore
 barrelsbyrc.json
+craco.config.js
 jest.*
 *.sh
 TODO.md
