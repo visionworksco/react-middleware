@@ -63,3 +63,4 @@ next.env.js
 .cfignore
 Staticfile
 exclude
+.gists/

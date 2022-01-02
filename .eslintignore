@@ -60,3 +60,4 @@ out/
 next.env.js
 .husky/
 exclude
+.gists/

@@ -4,6 +4,7 @@ types/
 .husky/
 **/__test__/
 __mocks__/
+.gists/
 public/
 .env*
 .eslintignore
