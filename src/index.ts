@@ -20,7 +20,6 @@ export * from './components/position/mock/PositionData';
 export * from './components/position/Position';
 export * from './components/position/type/Position';
 export * from './config/Config';
-export * from './pages/PositionPage';
 export * from './query/type/QueryParam';
 export * from './query/useQueryParams';
 export * from './router/RouteActions';

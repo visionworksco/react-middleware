@@ -15,7 +15,7 @@ const table: TableItem[] = POSITION_DATA;
 
 type Props = Titlable;
 
-const Position = (props: Props): JSX.Element => {
+const PositionCmp = (props: Props): JSX.Element => {
   const { title } = props;
 
   const { t } = useTranslation(BASE_TRANSLATION_NAMESPACE);
@@ -67,4 +67,4 @@ const Position = (props: Props): JSX.Element => {
   return <div>this is a test</div>;
 };
 
-export default Position;
+export { PositionCmp };
