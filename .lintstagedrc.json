@@ -1,0 +1,5 @@
+{
+  "*.{css,scss,less}": "stylelint --fix --allow-empty-input",
+  "**/*.{js,jsx,ts,tsx}": "eslint --fix",
+  "**/*.{js,jsx,ts,tsx}": "prettier --write"
+}

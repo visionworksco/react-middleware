@@ -1,5 +1,5 @@
-/public
-/out
-/build
-/dist
-/.gists
+node_modules/
+dist/
+coverage/
+build/
+public/

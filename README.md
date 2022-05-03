@@ -2,15 +2,15 @@
 
 React middleware.
 
-## Make a new build
+## Publish a new release
 
+- nvm ls, nvm use <node_version>
 - npm login (one time)
-- npm run lint:node_modules (optional)
-- npm run test:integration (optional)
+- npm run compile
 - npm run build
 - npm run commit
-- npm run npm:release:[first|major|minor|patch]
-- npm run npm:publish
+- npm run release:[first|major|minor|patch]
+- npm run release:publish
 
 ## Symlink the package
 
