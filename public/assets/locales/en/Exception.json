@@ -1,0 +1,15 @@
+{
+  "Unable to load data": "Unable to load data",
+  "Sorry something went wrong": "Sorry, something went wrong",
+  "Try your request again": "Try your request again. If the problem continues, contact support.",
+  "Expand": "Expand",
+  "Warning": "Warning",
+  "Should be a string": "Should be a string",
+  "Should not be empty": "Should not be empty",
+  "Should be minimum characters long": "Should be minimum {{constraint1}} characters long",
+  "Should be maximum characters long": "Should be maximum {{constraint1}} characters long",
+  "Should not be less than": "Should not be less than {{constraint1}}",
+  "Should not be more than": "Should not be more than {{constraint1}}",
+  "Format should be": "Format should be {{constraint1}}",
+  "Not implemented": "Not implemented"
+}
