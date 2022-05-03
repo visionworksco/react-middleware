@@ -5,9 +5,7 @@ type Props = {
   children: React.ReactNode;
 };
 
-const Router = (props: Props): JSX.Element => {
+export const Router = (props: Props): JSX.Element => {
   const { children } = props;
   return <BrowserRouter>{children}</BrowserRouter>;
 };
-
-export default Router;
